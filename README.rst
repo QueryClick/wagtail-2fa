@@ -1,5 +1,13 @@
 .. start-no-pypi
 
+.. important::
+
+   **This is QueryClick's temporary fork of labd/wagtail-2fa.** It is upstream plus two
+   unmerged upstream pull requests (#285 Wagtail 8.0 support, #286 django-otp 1.7.1 login fix)
+   and nothing else. We use it pinned by commit hash and will retire it once upstream releases
+   those fixes. See `QUERYCLICK_FORK.md <QUERYCLICK_FORK.md>`_ for the reasons, the exact diff and the rules.
+
+
 .. image:: https://github.com/labd/wagtail-2fa/workflows/Python%20Tests/badge.svg
     :target: https://github.com/labd/wagtail-2fa/actions?query=workflow%3A%22Python+Tests%22
 
